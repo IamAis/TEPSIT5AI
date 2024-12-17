@@ -17,7 +17,7 @@ e quando avverrà stamperà "Nuovo client connesso: /*ip*"
 Per avviare il client sarà sufficiente avviarlo dalla classe GameClientGUI, che aprirà un interfaccia grafica; una volta
 impostato l'ip, la porta e il nome utente, basta premere "TROVA PARTITA", e il programma attenderà in background fino alla connessione di un altro client
 
-####Come Giocare
+###Come Giocare
 Per giocare è necessario cliccare sulla casella, nella quale si vuole segnare il proprio simbolo, ed attendere la mossa dell'avversario.
 Se si vuole uscire anticipatamente bastarà scrivere in Chat "/QUIT", ed attendere 3 secondi per disconessione. Per scrivere un qualcunque
 messaggio basterà scriverlo nella "chatInput" e premere il bottone "invia". Quando qualcuno vincerà oppure quando verrà raggiunto un pareggio
