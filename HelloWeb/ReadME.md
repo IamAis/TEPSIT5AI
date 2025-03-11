@@ -7,11 +7,7 @@ Questo progetto è stato sviluppato come parte dell'attività di laboratorio per
 ## Frameworks e Librerie
 
 1. **JAX-RS (Jersey)**: Framework per la creazione di servizi RESTful in Java.
-   - **jersey-container-servlet**: Gestisce l'integrazione di Jersey con i servlet in un'applicazione web.
-   - **jersey-media-moxy**: Fornisce il supporto per il marshalling e unmarshalling di dati in formato JSON/XML.
-
-3. **Jetty**: Server web leggero per eseguire applicazioni web in Java.
-   - **jetty-maven-plugin**: Consente di eseguire il server Jetty direttamente tramite Maven per testare l'applicazione in locale.
+2. **Jetty**: Server web leggero per eseguire applicazioni web in Java.
 
 
 ##Come utilizzarlo
