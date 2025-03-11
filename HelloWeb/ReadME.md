@@ -14,7 +14,7 @@ Questo progetto è stato sviluppato come parte dell'attività di laboratorio per
    - **jetty-maven-plugin**: Consente di eseguire il server Jetty direttamente tramite Maven per testare l'applicazione in locale.
 
 
-###Come utilizzarlo
+##Come utilizzarlo
 1. Caricare il progetto su Eclipse
 2. eseguire il comando maven mvn jetty;run oppure maven build -> jetty:run
 
