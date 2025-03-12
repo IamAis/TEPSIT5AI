@@ -1,10 +1,10 @@
-# Progetto Hello REST - Java/Maven
+# Progetto Hello Web
 
 ## Autore: *Francesco Brachini*
 
 ## Descrizione
 
-Questo progetto è stato sviluppato come parte dell'attività di laboratorio per sperimentare la creazione di applicazioni Web, ed utilizzare API Rest
+Questo progetto è stato sviluppato come parte dell'attività di laboratorio per sperimentare la creazione di applicazioni Web, ed utilizzare API Restful, sviluppato in *Java* con un progetto *Maven*, collegandosi alla porta 8080 é possibile visualizzare una pagine jsp, e collegandosi ad /api/test é possibile sfruttare un api che permette la stampa per nome nella richiesta http. (nell'url)
 
 ## Frameworks e Librerie
 
@@ -15,4 +15,5 @@ Questo progetto è stato sviluppato come parte dell'attività di laboratorio per
 ## Come utilizzarlo
 1. Caricare il progetto su Eclipse
 2. eseguire il comando maven mvn jetty;run oppure maven build -> jetty:run
+3. collegarsi a localhost:8080/api/test/{nome} si accede all'API, e mentre per accedere alla pagine jsp a localhost:8080.
 
