@@ -1,4 +1,6 @@
-# Progetto Hello REST - Java Web e Maven - **Francesco Brachini**
+# Progetto Hello REST - Java/Maven
+
+## Autore: *Francesco Brachini*
 
 ## Descrizione
 
