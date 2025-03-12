@@ -1,4 +1,4 @@
-# Progetto Hello REST - Java Web e Maven - *Francesco Brachini*
+# Progetto Hello REST - Java Web e Maven - **Francesco Brachini**
 
 ## Descrizione
 
@@ -10,7 +10,7 @@ Questo progetto è stato sviluppato come parte dell'attività di laboratorio per
 2. **Jetty**: Server web leggero per eseguire applicazioni web in Java.
 
 
-##Come utilizzarlo
+## Come utilizzarlo
 1. Caricare il progetto su Eclipse
 2. eseguire il comando maven mvn jetty;run oppure maven build -> jetty:run
 
