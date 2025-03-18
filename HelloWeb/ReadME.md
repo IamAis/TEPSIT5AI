@@ -16,4 +16,5 @@ Questo progetto è stato sviluppato come parte dell'attività di laboratorio per
 1. Caricare il progetto su Eclipse
 2. eseguire il comando maven mvn jetty;run oppure maven build -> jetty:run
 3. collegandosi a localhost:8080/api/test/{nome} si accede all'API, e mentre per accedere alla pagine jsp a localhost:8080.
+4. attraverso localhost:8080/api/books/{id} è possibile invocare i metodi HTTP(POST, DELETE, GET, PUT ed attraverso localhost:8080/api/books/ con metodo GET di Costruire l'ArrayList di Book
 
