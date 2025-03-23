@@ -5,7 +5,7 @@
   <artifactId>Brachini.HelloWeb</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Brachini_HelloWeb Maven Webapp v2</name>
+  <name>Depalo_HelloWeb Maven Webapp</name>
   <url>http://maven.apache.org</url>
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -87,6 +87,29 @@
 	perchè le _ultime JVM_ non includono più JAX-RS
 		-->
     <dependencies>
+    
+    <!-- Jackson Databind: principale libreria per serializzare e deserializzare oggetti -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.12.3</version> <!-- Usa la versione più recente -->
+    </dependency>
+
+    <!-- Jackson Core: componenti fondamentali di Jackson -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-core</artifactId>
+        <version>2.12.3</version> <!-- Usa la versione più recente -->
+    </dependency>
+
+    <!-- Jackson Annotations: per l'uso delle annotazioni Jackson (opzionale ma utile) -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-annotations</artifactId>
+        <version>2.12.3</version> <!-- Usa la versione più recente -->
+    </dependency>
+
+
         <!-- JAXB API -->
         <dependency>
             <groupId>javax.xml.bind</groupId>

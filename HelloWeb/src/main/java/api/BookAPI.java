@@ -1,5 +1,10 @@
 package api;
 
+
+
+
+import java.io.File;
+import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -15,6 +20,7 @@ import javax.ws.rs.core.Response;
 
 import Entita.Author;
 import Entita.Book;
+
 
 @Path("books")
 public class BookAPI {
@@ -57,6 +63,22 @@ public class BookAPI {
 		book.setAuthors(authors);
 		return book;
 	}
+	
+	
+	//SAVE METHOD
+	@GET
+	@Path("SaveJSON")
+	public static void saveBooksToJson(List<Book> books) {
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            objectMapper.writeValue(new File("books.json"), books);  // Salva in "books.json"
+            System.out.println("Books saved to books.json");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+	
+	
 	@POST
 	public Response add(Book book) throws URISyntaxException {
 		long newId = 3;
