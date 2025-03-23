@@ -1,4 +1,4 @@
-# Progetto Hello Web v2
+# Progetto Hello Web v3
 
 ## Autore: *Francesco Brachini*
 
@@ -17,4 +17,5 @@ Questo progetto è stato sviluppato come parte dell'attività di laboratorio per
 2. eseguire il comando maven mvn jetty;run oppure maven build -> jetty:run
 3. collegandosi a localhost:8080/api/test/{nome} si accede all'API, e mentre per accedere alla pagine jsp a localhost:8080.
 4. attraverso localhost:8080/api/books/{id} è possibile invocare i metodi HTTP(POST, DELETE, GET, PUT ed attraverso localhost:8080/api/books/ con metodo GET di Costruire l'ArrayList di Book
+5. Attraverso la richiesta GET api/books/SaveJSON è possibile salvare come json cio che abbiamo creato.
 
